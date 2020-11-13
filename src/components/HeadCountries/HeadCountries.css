@@ -1,0 +1,20 @@
+.Header-country {
+    height: 70px;
+    width: 90%;
+    background: rgba(18, 98, 255, 0.8);
+    margin: auto;
+    margin-top: 20px;
+}
+
+.heading-info {
+    margin-top: -1px;
+    color: white;
+    float: left;
+    height: 100%;
+    width: 23%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: 1.2rem;
+}

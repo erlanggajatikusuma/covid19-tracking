@@ -1,7 +1,7 @@
-.cases {
+/* .cases {
     display: flex;
-}
-.cases div {
+} */
+/* .cases div {
     margin: auto;
     width: 30%;
     height: 150px;
@@ -10,9 +10,9 @@
     border-radius: 7px;
     text-align: center;
     font-size: 24px;
-}
+} */
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
     .cases {
         display: flex;
         flex-direction: column;
@@ -21,4 +21,4 @@
         margin: 10px auto;
         width: 80%;
     }
-  }
+  } */
