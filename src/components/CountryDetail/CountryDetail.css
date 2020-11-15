@@ -5,23 +5,31 @@
     margin: auto;
     padding-bottom: 1em;
     margin-top: 2.8em;
+    display: flex;
+    justify-content: space-around;
 }
 
 .country-icon {
-    padding:0 15px;
     display: flex;
     float: left;
+    width: 10%;
     height: 100%;
+    margin-left: 10px;
     align-items: center;
 }
 
 
 .cases-details {
     height: 100%;
-    width: 84%;
+    width: 72%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    margin-left: 60px;
+}
+
+.cases-box {
+    margin: auto;
+    width: 26%;
 }
 
 

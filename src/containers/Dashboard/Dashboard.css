@@ -1,24 +1,32 @@
-/* .cases {
-    display: flex;
-} */
-/* .cases div {
-    margin: auto;
-    width: 30%;
-    height: 150px;
-    background: rgb(59, 54, 54);
-    border: 1px solid black;
-    border-radius: 7px;
-    text-align: center;
-    font-size: 24px;
-} */
+.countries-stats {
+    height: auto;
+    width: 100%;
+}
 
-/* @media screen and (max-width: 992px) {
-    .cases {
-        display: flex;
-        flex-direction: column;
-    }
-    .cases div {
-        margin: 10px auto;
-        width: 80%;
-    }
-  } */
+h2 {
+    font-weight: 700;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.filtering {
+    display: flex;
+    height: 60px;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.filtering input {
+    height: 100%;
+    width: 70%;
+    padding-left: 25px;
+}
+
+.filtering .sort-by {
+    height: 100%;
+    width: calc(100% - 70%);
+    margin-left: 25px;
+    padding: 0 20px;
+}

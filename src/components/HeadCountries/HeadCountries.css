@@ -3,7 +3,9 @@
     width: 90%;
     background: rgba(18, 98, 255, 0.8);
     margin: auto;
+    justify-content: center;
     margin-top: 20px;
+    display: flex;
 }
 
 .heading-info {
@@ -11,8 +13,7 @@
     color: white;
     float: left;
     height: 100%;
-    width: 23%;
-    vertical-align: middle;
+    width: 22.5%;
     display: flex;
     align-items: center;
     padding-left: 15px;
