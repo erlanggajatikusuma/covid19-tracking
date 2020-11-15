@@ -30,3 +30,24 @@ h2 {
     margin-left: 25px;
     padding: 0 20px;
 }
+
+@media screen and (max-width: 468px) {
+    .filtering {
+        height: 40px;
+    }
+
+    .filtering .sort-by {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .filtering {
+        height: 30px;
+    }
+
+    .filtering .sort-by {
+        font-size: 10px;
+        padding: 0px;
+    }
+}

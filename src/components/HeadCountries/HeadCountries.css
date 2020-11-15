@@ -19,3 +19,15 @@
     padding-left: 15px;
     font-size: 1.2rem;
 }
+
+@media screen and (max-width: 415px) {
+    .heading-info {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .heading-info {
+        font-size: 0.9rem;
+    }
+}
